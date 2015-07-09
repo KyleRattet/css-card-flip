@@ -1,1 +1,6 @@
 /* add your styles here */
+.primary{position: absolute;
+    opacity: 100;}
+
+.secondary {position: absolute;
+  opacity: 0;}
