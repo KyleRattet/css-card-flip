@@ -9,6 +9,6 @@
     opacity: 0;
     }
 
-.secondary:hover {
+.secondary:hover {transition: all 2s ease;
   opacity: 1;
 }
