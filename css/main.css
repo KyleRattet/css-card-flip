@@ -1,14 +1,24 @@
 /* add your styles here */
 .primary{position: absolute;
-    z-index: -1;
   }
 
-
-
 .secondary {position: absolute;
-    opacity: 0;
     }
 
-.secondary:hover {transition: all 2s ease;
-  opacity: 1;
+.primary,
+.secondary {
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      -webkit-transition: -webkit-transform 0.3s;
+              transition: transform 0.3s;
+    }
+
+
+.primary:hover {
+  -webkit-transform: rotateY(-180deg);
+         transform: rotateY(-180deg);
+}
+
+.secondary:hover {-webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
