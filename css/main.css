@@ -1,9 +1,14 @@
 /* add your styles here */
 .primary{position: absolute;
-    opacity: 100;
+    z-index: -1;
   }
 
-.primary:hover {display: none;}
+
 
 .secondary {position: absolute;
-    opacity: 100;}
+    opacity: 0;
+    }
+
+.secondary:hover {
+  opacity: 1;
+}
